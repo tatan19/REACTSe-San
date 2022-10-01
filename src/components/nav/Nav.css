@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #eaeaea;
+}
+h1,h2,h3,h4,h5{
+font-family: 'Marcellus' , serif;
+}
+/*nav grande*/
+nav{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--negro2);
+}
+.logo{
+    padding:1rem;
+}
+.logo img{
+width: 100%;
+max-width: 180px;
+}
+.logo i {
+display: none;
+}
+.navegacion{
+display:block;
+display: flex;
+flex-direction: row;
+background-color: var(--negro2);
+color: #fff;
+justify-content: space-between;
+height: 2em;
+}
+.navegacion-hr{
+display:none;
+}
+.navbar-button{
+background-color: var(--azuloscuro);
+border-radius: 3px;
+font-size: 1em;
+padding: 0.5rem;
+font-family: 'Marcellus', serif;
+color: var(--blanco);
+cursor: pointer;
+margin-top:-6%;
+}
+.navegacion a{
+    color: var(--blanco);
+    text-decoration: none;
+    text-align: center; 
+    font-family: 'Marcellus', serif;
+    font-size: 1.3rem;
+    padding-top: 8%;
+}
+nav a:hover{
+width:auto;
+background-color: transparent;
+}

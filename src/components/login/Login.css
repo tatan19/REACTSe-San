@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+/*Estilos Login*/
+*{
+    margin: 0;
+}
+
+.login{
+    background-image: url(../../pages/img/login_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Marcellus', serif;
+    color: #fff;
+    font-size: 1.3em;
+    height: 100%;
+    width: 100%;
+}
+.fm{
+    margin-top: 0%;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 600px;
+    margin-left: 650px;
+    background-color: #337AB7;
+    /*background: linear-gradient(to right, rgba(200, 224, 243, 0.9), rgba(153, 86, 54, 0.9));*/
+    border-radius: 10px;
+    margin-left: 28%;
+}
+
+.img_l{
+    width: 270px;
+   position: absolute;
+}
+.inp{
+    display: inline-block;
+    height: 250px;
+    padding-top: 25px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.logo_l{
+    width: 200px;
+}
+.up7{
+    margin-top: 25px;
+    height: 97px;
+}
+input{
+    font-size: xx-large;
+    border-radius: 6px;
+}
+.enviar{
+    width: 380px;
+    height: 15%;
+    font-family: 'Marcellus', serif;
+    color: #fff;
+    font-size: 1.3em;
+    background-color: #000;
+}
+
+.inp p{
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+.inp a{
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8em;
+}
+.regresar{
+    background-color:#000;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100px;
+    margin-left: 7.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.rg{
+    color:white;
+    text-decoration: none;
+    font-family: 'Marcellus', serif;
+    font-size: 0.8em;
+}
+.plo{
+    margin-top: 1em;
+    text-align: center;
+}

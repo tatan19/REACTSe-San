@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+}
+/*contenido blanco de dashboard*/
+.contform{
+    position: absolute;
+    width: 1000px;
+    height:0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 37%;
+}
+.confirmarctñ{
+    margin-top: 10rem;
+}
+.contdatos{
+    position: relative;
+    display: flexbox;
+    margin-top: 2px;
+    margin-left: -250px;
+    width: 1000px;
+    height:610px;
+    padding: 30px;
+    background-color: rgba(225, 225, 225, .8);
+    border-radius: 8px;
+}
+.contdatos h1{
+    grid-column: 1/ 3;
+    text-align: center;
+}
+.botonesf{
+    width: 150px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px 0;
+    background-color: var(--azuloscuro);
+    color: var(--blanco);
+}
+.botonesf i{
+    font-size: 1.8rem;
+    margin: 5px 10px;
+}
+.cambiarctñ{
+    background-color: rgb(44, 41, 41);
+    color: #fff;
+    font-size: 1.3em;
+    width: 150px;
+    padding: 10px;
+    font-family: 'Marcellus', serif;
+    border-radius: 0.2em;
+}
+.infouser{
+    position: relative;
+    width: 100px;
+    height:10px;
+}
+.datos{
+    margin-left: 200px;
+    margin-top: -260px;
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+}
+.datos label{
+    height: 1.6rem;
+}
+.datos2{
+    margin-left: 600px;
+    margin-top: -540px;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+}
+.datos label{
+    color: #000;
+}
+.edi{
+    width: 180px;
+    background-color: #000;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: 'Marcellus', serif;
+}
+.ctñ{
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 45% auto;
+}
+.ctñ label{
+    color: #000;
+    display: inline-block;
+}
+.chx{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    padding: 20px;
+}

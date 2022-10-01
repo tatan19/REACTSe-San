@@ -1,0 +1,62 @@
+/*estilos registrar*/
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+  --azulclaro: #48D6ED;
+  --azuloscuro: #337AB7;
+  --azulnegro: #303342;
+  --negro: #333333;
+  --negro2: #000;
+  --gris: #B2B3B3;
+  --fondo: #FFFEFC;
+  --verdeazul: #157A8A;
+  --Magenta: #9C2759;
+  --blanco: #fff;
+  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+*{
+    margin: 0;
+}
+
+
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Marcellus', serif;
+}
+
+.body{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Marcellus', serif;
+}
+
+.formularioMv{
+    display: none;
+}
+.formularioDk{
+    font-size: 23px;
+    display: grid;
+    grid-template:"datos1" 100%/50% 50%; 
+}
+.h1r{
+    font-size: 50px;
+    text-align: center;
+}
+.datos1{
+    grid-area: datos1; 
+    padding: 20px;
+}
+.info2{
+        padding: 20px;
+}
+.radios{
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
