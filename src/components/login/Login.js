@@ -2,6 +2,7 @@ import up from '../../pages/img/up.png'
 import hhn from '../../pages/img/Hotelia horizontal negro.svg'
 import { Link } from 'react-router-dom'
 import './Login.css'
+import Prologin from './loginpro'
 function Loginp() {
     return (
         <body class="login">
@@ -11,7 +12,7 @@ function Loginp() {
         </div>
         <center><img src={up} alt="" class="up7"/></center>
         <div class="inp">
-        <label for="">Usuario</label><br/>
+            <Prologin username='username'/>
         <input type="text"/><br/>
         <label for="">Contraseña</label><br/>
         <input type="password"/><br/><br/><br/>
